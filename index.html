@@ -18,26 +18,28 @@
                 </div>
            </div>
            <div id="main" class="container">
-                
+                <h3 id="game"></h3>     
                 <p id="guesses"></p>
                 <h3 id="game"></h3>
                 <input type="text" id="letter" maxlength="1">
                 <button type="button" class="btn btn-primary" onclick="submit()">guess</button>
+                <button type="button" class="btn btn-primary" onclick="document.location.reload(true)">Try Again</button>
+                <div class="container"></div>
             <hr>
-            <h3>right or wrong you only have 15 guesses to win!</h3>
+            <h3>Right or Wrong - you only have 15 inputs to win!</h3>
             <hr>
-            <h3>Guesses:</h3>
+            <h3>Guessed Letters</h3>
             <p id="guessedLetters"></p>
             <hr>
             <h3>Spice it up while you play!</h3>
             <audio controls>
                 <source src="Pokemon-Theme-Song.mp3" type="audio/mpeg">
             </audio>
-                </div>
-       
-                <div class="footer">
-                    <p>Pokemon Masters Only</p>
-                  </div>
+            </div>
+
+            <div class="footer">
+                <p>Pokemon Masters Only</p>
+              </div>
        
     </body>
 </html>

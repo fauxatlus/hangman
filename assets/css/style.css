@@ -7,7 +7,7 @@
 
 .jumbotron .container {
     position: relative;
-    bottom:100px;
+    bottom:80px;
     color:white;
     font-weight: bolder;
     font-family: 'Monoton', 'cursive';
@@ -21,15 +21,21 @@
 
 
 
-    .footer {
-        bottom:0px;
-        width:100%;
-        height:50px;   /* Here fix the height of your footer */
-        clear:both;
+
+      .footer {
+        margin-bottom: 0;
+        position: fixed;
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         text-align: center;
         font-weight: bolder;
         font-family: 'Monoton', 'cursive';
         background-color:#ef1c2d;
         color:white;
-     }
-    
+      }
+
+    .footer p{
+        margin-bottom: 0;
+    }
