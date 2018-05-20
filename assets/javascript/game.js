@@ -16,6 +16,7 @@ var letters = answer.split('');
 var attemptsLeft= 15;
 var output="";
 var userLetter="";
+var guessedLetters=[];
 
 
 
@@ -38,6 +39,8 @@ function submit()
 
     output = "";
     userLetter=$("letter").value;
+    guessedLetters.push(userLetter);
+    document.getElementById("guessedLetters").innerHTML = guessedLetters;
     $("letter").value ="";
 
     for (var c=0; c< answer.length; c++)

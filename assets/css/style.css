@@ -22,7 +22,6 @@
 
 
     .footer {
-        position:absolute;
         bottom:0px;
         width:100%;
         height:50px;   /* Here fix the height of your footer */
