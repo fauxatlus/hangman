@@ -1,0 +1,36 @@
+.jumbotron {
+    background-image: url("pikachu.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.jumbotron .container {
+    position: relative;
+    bottom:100px;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Monoton', 'cursive';
+}
+
+
+#main{
+    margin:auto;
+    text-align: center;
+}
+
+
+
+    .footer {
+        position:absolute;
+        bottom:0px;
+        width:100%;
+        height:50px;   /* Here fix the height of your footer */
+        clear:both;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Monoton', 'cursive';
+        background-color:#ef1c2d;
+        color:white;
+     }
+    
